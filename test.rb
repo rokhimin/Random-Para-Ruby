@@ -149,6 +149,44 @@ end
 
 
 
+nama = ["aladdin","jasmine","alibaba"] #string
+umur = [11,15,17,18] #integer(angka)
+hoby = [:bola,:basket,:voli] #symbol. diawali dgn ":"
+random = ["aladdin",18,:voli,"alibaba"] #Campur 
+
+nama.push "genie" #menambahkan genie di array nama
+umur.delete_at 0 #menghapus umur 11 di array umur
+#urutan value array dimulai dari 0,1,2....
+semua = nama, umur, hoby
+
+semua.each do |item|
+	puts "== #{item}"
+end
+
+=begin
+**Contoh pengelolahan Array**
+lupa ngasih contoh 
+`array`, `hash` hampir sama sih cara nya
+baca ada method nya..
+https://discordapp.com/channels/400567670522642442/605579933489823744/609052563731644479
+```ruby
+nama = ["aladdin","jasmine","alibaba"] #string
+umur = [11,15,17,18] #integer(angka)
+hoby = [:bola,:basket,:voli] #symbol. diawali dgn ":"
+random = ["aladdin",18,:voli,"alibaba"] #Campur 
+
+nama.push "genie" #menambahkan genie di array nama
+umur.delete_at 0 #menghapus umur 11 di array umur
+#urutan value array dimulai dari 0,1,2....
+semua = nama, umur, hoby
+
+semua.each do |item|
+	puts "== #{item}"
+end
+```
+
+=end
+
 
 
 
