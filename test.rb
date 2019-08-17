@@ -163,6 +163,7 @@ semua.each do |item|
 	puts "== #{item}"
 end
 
+
 =begin
 **Contoh pengelolahan Array**
 lupa ngasih contoh 
