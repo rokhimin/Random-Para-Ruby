@@ -30,6 +30,17 @@ puts output.heros
 
 
 
+=begin
+class List
+	def genre
+		genre = ["Action","Horror","Romance","Sci-fi"]
+		puts "List #{genre[1]}:"
+	end
+end
+output = List.new
+output.genre
+puts "- Hereditary"
+=end
 
 
 
